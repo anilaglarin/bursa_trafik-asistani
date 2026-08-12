@@ -36,7 +36,7 @@ Projeyi kendi bilgisayarınızda (lokalde) çalıştırmak için aşağıdaki ad
 
 Terminalinizi açın ve projeyi bilgisayarınıza indirin:
 
-```bash
+bash
 git clone https://github.com/anilaglarin/bursa_trafik-asistani.git
 
 Proje klasörünün içine girin:
