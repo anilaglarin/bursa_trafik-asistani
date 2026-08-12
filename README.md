@@ -37,12 +37,12 @@ Projeyi kendi bilgisayarınızda (lokalde) çalıştırmak için aşağıdaki ad
 Terminalinizi açın ve projeyi bilgisayarınıza indirin:
 
 ```bash
-git clone https://github.com/anilaglarin/bursa_trafik-asistani.git
+git clone https://github.com/anilaglarin/bursa_trafik-asistani.git```
 
 Proje klasörünün içine girin:
 
 ```Bash
-cd bursa_trafik-asistani
+cd bursa_trafik-asistani```
 
 3. Kütüphaneleri Yükleyin
 Projenin çalışması için gerekli olan Python paketlerini kurun:
