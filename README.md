@@ -27,7 +27,7 @@ Bu projede standart RAG (Retrieval-Augmented Generation) yaklaşımı yerine, ya
 | Katman | Teknolojiler |
 |---|---|
 | **Arayüz (Frontend)** | Python, Streamlit |
-| **Yapay Zeka (Backend)** | OpenAI API Python Client, LM Studio (Qwen2.5-7b-instruct vb. yerel modeller) |
+| **Yapay Zeka (Backend)** | OpenAI API Python Client, LM Studio (Qwen2.5-7b-instruct) |
 | **Veritabanı ve Veri İşleme** | PostgreSQL, Pandas, SQLAlchemy |
 
 ---
