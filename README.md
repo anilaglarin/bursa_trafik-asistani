@@ -33,13 +33,23 @@ Projeyi kendi bilgisayarınızda (lokalde) çalıştırmak için aşağıdaki ad
 - [LM Studio](https://lmstudio.ai/)
 
 ### 2. Projeyi Klonlayın
+
+Terminalinizi açın ve projeyi bilgisayarınıza indirin:
+
 ```bash
-git clone [https://github.com/anilaglarin/bursa_trafik-asistani.git](https://github.com/anilaglarin/bursa_trafik-asistani.git)
+git clone https://github.com/anilaglarin/bursa_trafik-asistani.git
+
+Proje klasörünün içine girin:
+
+Bash
 cd bursa_trafik-asistani
 
 3. Kütüphaneleri Yükleyin
+Projenin çalışması için gerekli olan Python paketlerini kurun:
+
 Bash
 pip install streamlit openai pandas sqlalchemy psycopg2-binary
+
 
 4. Veritabanı Kurulumu
 Projede bulunan traffic_data.csv dosyasını kendi PostgreSQL veritabanınıza aktarmanız gerekmektedir:
@@ -57,11 +67,14 @@ Sol menüden "Local Server" sekmesine gidin.
 
 Portu 1234 olarak ayarlayın ve "Start Server" butonuna basarak API sunucusunu başlatın.
 
+
 6. Uygulamayı Başlatın
 Sistem ve veritabanı hazır olduğunda terminal üzerinden uygulamayı ayağa kaldırın:
 
 Bash
 streamlit run app.py
+
+
 💡 Örnek Kullanım Senaryoları
 Arayüz üzerinden asistana aşağıdaki gibi sorular sorabilirsiniz:
 
