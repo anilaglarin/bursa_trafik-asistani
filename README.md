@@ -92,9 +92,8 @@ streamlit run app.py
 
 Arayüz üzerinden asistana aşağıdaki gibi sorular sorabilirsiniz:
 
-
 - "Saat 18:00'de trafik nasıl?"
 - "Bursa'da yola çıkmak için en sakin saatler hangileri?"
 - "Akşam 17:00 ile 19:00 arası trafik nasıl, alternatif hangi saatleri önerirsin?"
 
-Asistan bu soruları arka planda SQL'e çevirip `tt_hourlytraffic` tablosunda sorgular ve size net, anlaşılır bir analiz sunar.
+Asistan bu soruları arka planda SQL'e çevirip `tt_hourlytraffic` tablosunda sorgular ve size net, anlaşılır bir analiz sunar..
