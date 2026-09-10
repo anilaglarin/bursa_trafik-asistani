@@ -2,6 +2,14 @@
 
 Bu proje, Bursa'nın saatlik trafik yoğunluk verilerini analiz eden ve kullanıcılara doğal dilde (Türkçe) rehberlik sağlayan yapay zeka destekli bir sohbet asistanıdır. Kullanıcıların yola çıkmadan önce en mantıklı saatleri bulmalarına yardımcı olurken, arka planda karmaşık veri tabanı sorgularını otonom olarak yönetir.
 
+Bu proje, **Microsoft AI Innovators Internship Program** kapsamında tamamlanmıştır.
+
+---
+
+## 📸 Uygulama Görüntüsü
+
+![Bursa Trafik Asistanı](trafik.png)
+
 ---
 
 ## 🧩 Mimari ve Temel Bileşenler
@@ -24,11 +32,11 @@ Bu projede standart RAG (Retrieval-Augmented Generation) yaklaşımı yerine, ya
 
 ## 🛠️ Kullanılan Teknolojiler
 
-| Katman | Teknolojiler |
-|---|---|
-| **Arayüz (Frontend)** | Python, Streamlit |
-| **Yapay Zeka (Backend)** | OpenAI API Python Client, LM Studio (Qwen2.5-7b-instruct) |
-| **Veritabanı ve Veri İşleme** | PostgreSQL, Pandas, SQLAlchemy |
+| Katman                        | Teknolojiler                                              |
+| ----------------------------- | ----------------------------------------------------------|
+| **Arayüz (Frontend)**         | Python, Streamlit                                          |
+| **Yapay Zeka (Backend)**      | OpenAI API Python Client, LM Studio (Qwen2.5-7b-instruct)  |
+| **Veritabanı ve Veri İşleme** | PostgreSQL, Pandas, SQLAlchemy                             |
 
 ---
 
@@ -46,13 +54,13 @@ Projeyi kendi bilgisayarınızda (lokalde) çalıştırmak için aşağıdaki ad
 
 Terminalinizi açın ve projeyi bilgisayarınıza indirin:
 
-```bash
+```
 git clone https://github.com/anilaglarin/bursa_trafik-asistani.git
 ```
 
 Proje klasörünün içine girin:
 
-```bash
+```
 cd bursa_trafik-asistani
 ```
 
@@ -60,7 +68,7 @@ cd bursa_trafik-asistani
 
 Projenin çalışması için gerekli olan Python paketlerini kurun:
 
-```bash
+```
 pip install streamlit openai pandas sqlalchemy psycopg2-binary
 ```
 
@@ -82,7 +90,7 @@ Projede bulunan `traffic_data.csv` dosyasını kendi PostgreSQL veritabanınıza
 
 Sistem ve veritabanı hazır olduğunda terminal üzerinden uygulamayı ayağa kaldırın:
 
-```bash
+```
 streamlit run app.py
 ```
 
@@ -96,4 +104,4 @@ Arayüz üzerinden asistana aşağıdaki gibi sorular sorabilirsiniz:
 - "Bursa'da yola çıkmak için en sakin saatler hangileri?"
 - "Akşam 17:00 ile 19:00 arası trafik nasıl, alternatif hangi saatleri önerirsin?"
 
-Asistan bu soruları arka planda SQL'e çevirip `tt_hourlytraffic` tablosunda sorgular ve size net, anlaşılır bir analiz sunar..
+Asistan bu soruları arka planda SQL'e çevirip `tt_hourlytraffic` tablosunda sorgular ve size net, anlaşılır bir analiz sunar.
